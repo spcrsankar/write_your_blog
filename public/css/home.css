@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  color: rgb(22, 223, 22);
+  text-shadow:  5px 2px rgba(0, 0, 0, 0.1);
+  font-weight: 600;
+  font-size: x-large;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+#page-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.post-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-textarea{
+  resize:none;
+  height: 100px;
+  overflow-y: auto;
+}
+
+.form-button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+
+#blog-container {
+  margin-top: 20px;
+}
+
+#signout-btn {
+  float: right;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#signout-btn:hover {
+  background-color: #c82333;
+}
+
+
+#blog-container {
+  margin-top: 20px;
+}
+
+.blog-post {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.blog-post:hover{
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+
+.blog-post h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.blog-post p {
+  font-size: 16px;
+  line-height: 1.5;
+  
+}
+
+.blog-post span{
+  display: block;
+  font: 600;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #7c8590;
+}
+
+.edit-button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+#updateform {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100; 
+  display: none; 
+
+}
+
+#update-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 80%; 
+  max-width: 400px;
+  text-align: center;
+  
+}
+
+#update-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+#update-form input[type="text"],
+#update-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Style the "Update" button */
+#update-form button[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#update-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.search-area{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.search-area input[type="text"]{
+  width: 80%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+.search-button{
+  width: 15%;
+  padding: 10px;
+  font-size: 16px;
+  background:white;
+  border: 2px solid rgb(91, 182, 91);  
+  color:rgb(91, 182, 91);
+  border-radius: 5px;
+  font-weight: 400;
+  box-sizing: border-box;
+  cursor: pointer;
+
+}
+
+.active{
+  color:white;
+  background-color: rgb(91, 182, 91);
+}
+
+.search-button:hover{
+  transform: scale(1.01);
+  transition: 0.3s;
+}
